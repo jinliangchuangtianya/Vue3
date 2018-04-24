@@ -1,0 +1,11 @@
+#app{
+  margin: 0 auto;
+  width: 202px;
+}
+.selectList{
+  width: 200px;
+  border: 1px solid #ccc;
+}
+.selectInput input{
+  width: 200px;
+}

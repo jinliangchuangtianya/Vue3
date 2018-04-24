@@ -1,0 +1,53 @@
+html,body,.layerout{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#app{
+  height: 100%;
+}
+a,a:focus{
+  text-decoration:none;
+}
+.home{
+  width: 80%;
+  margin: 0 auto;
+}
+.home-header img{
+  width: 150px;
+}
+.login-wrap{
+  float: right;
+  margin-top: 25px;
+}
+.btn-black{
+  color: white;
+  background-color: black;
+}
+.btn-black:hover,.btn-black:focus{
+  background: yellow;
+  border: none;
+}
+.home h1{
+  text-align: center;
+}
+.btn-wrap{
+  text-align: center;
+}
+.box{
+  width: 300px;
+  height: 250px;
+  background: cadetblue;
+  color: white;
+  font-size: 16px;
+  line-height: 250px;
+  text-align: center;
+}
+/*过渡动画*/
+.fade-enter,.fade-leave-to{
+  opacity: 0;
+}
+.fade-enter-active,.fade-leave-active{
+  transition: 1s;
+}

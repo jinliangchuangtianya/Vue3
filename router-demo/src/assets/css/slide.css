@@ -1,0 +1,38 @@
+.slider-box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -130px;
+  z-index: 1;
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+.silde-wrap{
+  width: 200px;
+  color: white;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  bottom: 0;
+}
+.silde-wrap a,.silde-wrap a:focus{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.content-wrap{
+  width: 99.7%;
+  box-sizing: border-box;
+  padding-left: 200px;
+  background: dimgrey;
+  height: 100%;
+  overflow: auto;
+}
+.content{
+  text-align: center;
+  width: 100%;
+  height: 850px;
+  background: white;
+  padding-top: 20px;
+}
+
